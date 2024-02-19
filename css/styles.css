@@ -37,6 +37,9 @@ img {
 .page-header {
     margin-top: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #e7e9fc;
+    gap: 40px;
+    
 }
 .page-header-container {
 display: flex;
@@ -51,11 +54,12 @@ justify-content: space-between;
 .page-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .page-menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     
 }
 
@@ -82,6 +86,7 @@ justify-content: space-between;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .page-adress {
@@ -116,8 +121,8 @@ font-style: normal;
 /* =========== Business Section styles =========== */
 
 .business-contanier {
-    padding-top: 185px;
-    padding-bottom: 185px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     padding-left: 316px;
     padding-right: 316px;
 }
@@ -134,7 +139,7 @@ background-color: #2e2f42;
     text-align: center;
     color: #fff;
     margin-bottom: 50px;
-    max-width: 500px;
+    max-width: 496px;
 }
 
 .order-service-btn {
@@ -154,6 +159,7 @@ background-color: #2e2f42;
     margin-left: auto;
     margin-right: auto;
     margin-top: 46px;
+    border: none;
 }
 
 
@@ -167,9 +173,14 @@ background-color: #2e2f42;
 /* =========== Blog Section styles =========== */
 
 
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
 .section-blog {
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 .blog-section {
 font-family: "Roboto", sans-serif;
@@ -178,7 +189,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-bottom: 16px;
+margin-bottom: 8px;
+
 }
 
 .blog-section-info {
@@ -188,17 +200,24 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+
 }
 .menu-page {
 display: flex;
 gap: 24px;
-width: calc((100%-72px)/4);
+
+}
+.menu-page-item {
+    width: calc((100% - 72px) / 4);
 }
 
 /* =========== Our Team Section styles =========== */
+.name {
+    padding: 32px 0;
+}
 .our-team-section {
     background-color: #F4F4FD;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 120px;
 
 }
@@ -211,7 +230,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 78px;
+margin-bottom: 72px;
 
 }
 
@@ -223,6 +242,8 @@ margin-bottom: 78px;
 .menu-team-item {
     background-color: #FFFFFF;
     width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 .menu-team-name {
 font-family: "Roboto", sans-serif;
@@ -232,6 +253,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-align: center;
+margin-bottom: 8px;
 }
 
 .menu-team-info {
@@ -242,15 +265,26 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+text-align: center;
 }
 
 /* =========== /Our Team Section styles =========== */
 
 /* =========== Portfolio Section styles =========== */
+.category {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfolio-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .menu-portfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 23px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-page {
 font-family: "Roboto", sans-serif;
@@ -261,6 +295,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
 }
 
 
@@ -271,6 +306,7 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-info {
@@ -293,6 +329,7 @@ background-color:#2e2f42;
 padding-top: 100px;
 padding-bottom: 100px;
 display: flex;
+display: inline-block;
 }
 
 .footer-page-info {
