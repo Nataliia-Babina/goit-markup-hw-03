@@ -63,9 +63,6 @@ justify-content: space-between;
     
 }
 
-.menu-item {
-    gap: 40px;
-}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -94,10 +91,11 @@ justify-content: space-between;
 .page-adress {
 font-style: normal;
 
+
 }
 .menu-adress {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .adress-info {
     font-family: "Roboto", sans-serif;
@@ -177,8 +175,16 @@ padding-top: 188px;
 
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .section-blog {
