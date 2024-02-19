@@ -1,0 +1,310 @@
+/* =========== Common styles =========== */
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* =========== /Common styles =========== */
+
+/* =========== Page Header styles =========== */
+.page-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page-header-container {
+display: flex;
+justify-content: space-between;
+}
+.page-body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-menu {
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.logo-raleway {
+    color: #2e2f42;
+}
+
+.menu-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.page-adress {
+font-style: normal;
+
+}
+.menu-adress {
+    display: flex;
+    column-gap: 40px;
+}
+.adress-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.adress-info:hover,
+.adress-info:focus {
+    color: #404bbf;
+}
+/* =========== /Page Header styles =========== */
+
+/* =========== Business Section styles =========== */
+
+.business-contanier {
+    padding-top: 185px;
+    padding-bottom: 185px;
+    padding-left: 316px;
+    padding-right: 316px;
+}
+.business {
+background-color: #2e2f42;
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    max-width: 500px;
+}
+
+.order-service-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    min-width: 169px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    height: 56px;
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+}
+
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background-color: #404bbf;
+    
+}
+/* =========== /Business Section styles =========== */
+
+/* =========== Blog Section styles =========== */
+.section-blog {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.blog-section {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.blog-section-info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.menu-page {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+max-width: 264px;
+width: calc((100%-72px)/4);
+}
+
+/* =========== Our Team Section styles =========== */
+.our-team-section {
+    background-color: #F4F4FD;
+    padding-top: 60px;
+    padding-bottom: 120px;
+
+}
+.team-section {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 78px;
+
+}
+
+.menu-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+.menu-team-item {
+    background-color: #FFFFFF;
+    width: calc((100%-69px)/4);
+}
+.menu-team-name {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.menu-team-info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+
+/* =========== /Our Team Section styles =========== */
+
+/* =========== Portfolio Section styles =========== */
+.menu-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+.portfolio-page {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
+
+
+.portfolio-service {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* =========== /Portfolio Section styles =========== */
+
+/*=========== Footer Section styles===========*/
+
+.footer-page {
+background-color:#2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+}
+
+.footer-page-info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+width:264px;
+padding-top: 20px;
+
+}
+
+.logo-raleway-footer {
+    color: #f4f4fd;
+}
+/* =========== /Footer Section styles =========== */
